@@ -7,7 +7,7 @@ export default [
     ignores: ['node_modules/', 'dist/', 'build/', '*.min.js'],
   },
   {
-    files: ['**/*.js'],
+    files: ['*.js', '*.mjs'],
     languageOptions: {
       ecmaVersion: 2021,
       sourceType: 'module',
@@ -34,7 +34,6 @@ export default [
         {
           singleQuote: true,
           semi: true,
-          trailingComma: 'es5',
           tabWidth: 2,
           printWidth: 80,
         },
