@@ -7,7 +7,7 @@ export default [
     ignores: ['node_modules/', 'dist/', 'build/', '*.min.js'],
   },
   {
-    files: ['*.js', '*.mjs'],
+    files: ['**/*.js', '**/*.mjs'],
     languageOptions: {
       ecmaVersion: 2021,
       sourceType: 'module',
@@ -32,6 +32,8 @@ export default [
       'prettier/prettier': [
         'error',
         {
+          trailingComma: 'es5',
+          endOfLine: 'lf',
           singleQuote: true,
           semi: true,
           tabWidth: 2,
