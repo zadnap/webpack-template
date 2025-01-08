@@ -12,6 +12,6 @@ export default {
   arrowParens: 'always',
   proseWrap: 'preserve',
   htmlWhitespaceSensitivity: 'css',
-  endOfLine: 'lf',
+  endOfLine: 'auto',
   embeddedLanguageFormatting: 'auto',
 };

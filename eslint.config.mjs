@@ -33,7 +33,7 @@ export default [
         'error',
         {
           trailingComma: 'es5',
-          endOfLine: 'lf',
+          endOfLine: 'auto',
           singleQuote: true,
           semi: true,
           tabWidth: 2,
