@@ -42,4 +42,20 @@ export default [
       ],
     },
   },
+  {
+    files: ['**/*.test.js', '**/*.spec.js'],
+    languageOptions: {
+      globals: {
+        describe: true,
+        test: true,
+        it: true,
+        expect: true,
+        beforeEach: true,
+        beforeAll: true,
+        afterEach: true,
+        afterAll: true,
+        jest: true,
+      },
+    },
+  },
 ];
